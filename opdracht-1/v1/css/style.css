@@ -1,0 +1,23 @@
+main section:nth-of-type(2) {
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0.5em;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+@media (min-width:25em) and (max-width:45em) {
+    main section:nth-of-type(2) {
+        column-count: 2;
+    }
+}
+
+@media (max-width:25em) {
+    main section:nth-of-type(2) {
+        column-count: 1;
+    }
+}
